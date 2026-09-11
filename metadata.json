@@ -1,0 +1,6 @@
+{
+  "name": "OpportunityX",
+  "description": "AI-Powered Student Opportunity Engine: Discover Opportunities, Build Skills, Shape Your Future.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
