@@ -1,1072 +1,663 @@
-Build a complete, modern, responsive AI-powered web application called:
+# 🚀 OpportunityX – AI-Powered Student Opportunity Engine
 
-# OpportunityX – AI-Powered Student Opportunity Engine
+> **Discover Opportunities. Build Skills. Shape Your Future.**
 
-TAGLINE:
-“Discover Opportunities. Build Skills. Shape Your Future.”
+OpportunityX is an AI-powered student opportunity intelligence platform designed to help students discover, understand, prioritize, and pursue the right career opportunities.
 
-PROJECT OBJECTIVE:
+It recommends **internships, hackathons, scholarships, competitions, fellowships, research programs, certifications, open-source programs, and projects** based on a student's skills, interests, education, experience, and career goals.
 
-Build an intelligent student opportunity platform that recommends internships, hackathons, scholarships, competitions, fellowships, research programs, certifications, open-source programs, and project opportunities based on a student's:
+Unlike traditional opportunity platforms that simply list opportunities, **OpportunityX explains why an opportunity matches the student, identifies skill gaps, recommends projects to improve readiness, and suggests the student's Next Best Move.**
 
-• Skills
-• Interests
-• Education
-• Branch
-• Year of study
-• Projects
-• Experience
-• Career goals
-• Preferred domain
-• Location preference
-• Work mode
-• Opportunity preferences
+---
 
-IMPORTANT:
-OpportunityX must NOT look like a basic job-search website.
+## 🎯 Problem Statement
 
-The main innovation is:
+### PS2 – Student Opportunity Engine
 
-“OpportunityX doesn't just show opportunities. It understands the student, calculates how well each opportunity matches them, explains WHY it matches, identifies missing skills, recommends projects to close the skill gap, and tells the student what their NEXT BEST MOVE should be.”
+Students face several challenges when searching for career opportunities:
 
-==================================================
-1. BRANDING
-==================================================
+* Too many opportunities across different platforms
+* Difficulty finding opportunities relevant to their profile
+* Lack of personalized recommendations
+* Unclear skill requirements
+* Difficulty identifying skill gaps
+* Missed application deadlines
+* Lack of career guidance
+* No clear action plan after discovering an opportunity
 
-Application Name:
-OpportunityX
+OpportunityX addresses these challenges through an intelligent, personalized recommendation system.
 
-Full Name:
-OpportunityX – AI-Powered Student Opportunity Engine
+---
 
-Tagline:
-“Discover Opportunities. Build Skills. Shape Your Future.”
+# 💡 Our Solution
 
-Use OpportunityX consistently throughout the application.
+OpportunityX creates a personalized **Student Opportunity Intelligence System**.
 
-Create a modern professional logo using:
-“OX”
+The platform analyzes:
 
-The visual identity should feel:
-• AI-powered
-• Student-friendly
-• Futuristic
-• Professional
-• Trustworthy
-• Career-focused
+* 🎓 Education
+* 💻 Technical Skills
+* 🧠 Interests
+* 🎯 Career Goals
+* 📂 Projects
+* 💼 Experience
+* 📍 Location
+* 🏠 Work Preferences
+* ⏰ Deadline Feasibility
 
-==================================================
-2. LANDING PAGE
-==================================================
+Then it generates personalized recommendations and actionable career guidance.
 
-Create a premium landing page.
+### 🔄 How It Works
 
-Hero:
+```text
+Student Profile
+       ↓
+Student DNA
+       ↓
+Opportunity DNA
+       ↓
+AI Matching Engine
+       ↓
+Personalized Match Score
+       ↓
+Why This Match?
+       ↓
+Skill Gap Analysis
+       ↓
+Project Recommendations
+       ↓
+Application Readiness
+       ↓
+Opportunity Priority
+       ↓
+Next Best Move
+       ↓
+Career Opportunity Path
+```
 
-Headline:
-“Your Next Opportunity Is Closer Than You Think.”
+---
 
-Subtitle:
-“OpportunityX uses AI to discover internships, hackathons, scholarships, competitions and projects matched to your skills and career goals.”
+# ✨ Key Features
 
-Buttons:
+## 🧬 1. Student DNA
 
-[Get Started]
-[Explore Opportunities]
+OpportunityX builds a personalized representation of each student's profile.
 
-Hero visual:
-Create an interactive dashboard preview showing:
+It considers:
 
-92% Match
-AI Internship
-🔥 High Priority
+* Skills
+* Interests
+* Education
+* Branch
+* Academic Year
+* Projects
+* Experience
+* Career Goals
+* Work Preferences
+* Location Preferences
 
-Below the hero show:
+### Example
 
-“Your Skills → AI Matching → Best Opportunities → Career Growth”
-
-Statistics:
-
-10,000+ Opportunities
-5,000+ Students
-30+ Domains
-95% Personalized Matching
-
-FEATURES:
-
-1. AI-Powered Recommendations
-2. Smart Match Score
-3. Skill Gap Analysis
-4. Career Path Planning
-5. Opportunity Deadline Intelligence
-6. AI Career Copilot
-
-==================================================
-3. STUDENT ONBOARDING
-==================================================
-
-Create a beautiful multi-step onboarding process.
-
-STEP 1 — PERSONAL DETAILS
-
-Fields:
-
-• Full Name
-• Education Level
-• College/University
-• Degree
-• Branch
-• Current Year
-• Graduation Year
-
-STEP 2 — SKILLS
-
-Allow students to select skills.
-
-Technical skills:
-
-Python
-Java
-C++
-JavaScript
-TypeScript
-React
-HTML
-CSS
-SQL
-Machine Learning
-Artificial Intelligence
-Data Science
-Cloud Computing
-Cybersecurity
-Git/GitHub
-Node.js
-UI/UX
-Blockchain
-
-Soft skills:
-
-Communication
-Leadership
-Problem Solving
-Teamwork
-Presentation
-Time Management
-
-Allow custom skills.
-
-STEP 3 — INTERESTS
-
-AI/ML
-Web Development
-App Development
-Data Science
-Cybersecurity
-Cloud
-Blockchain
-Robotics
-Research
-Entrepreneurship
-UI/UX
-Software Development
-
-STEP 4 — CAREER GOAL
-
-Options:
-
-Software Developer
-AI/ML Engineer
-Data Scientist
-Cybersecurity Engineer
-Cloud Engineer
-Full Stack Developer
-UI/UX Designer
-Researcher
-Entrepreneur
-Product Manager
-
-STEP 5 — PREFERENCES
-
-• Remote / Hybrid / On-site
-• Paid / Unpaid
-• Preferred location
-• Opportunity duration
-• Difficulty level
-• Preferred opportunity types
-
-Save all information.
-
-==================================================
-4. STUDENT DNA
-==================================================
-
-Create a unique feature called:
-
-“Student DNA”
-
-Analyze the student's profile.
-
-Display:
-
-Technical Strength
-Career Alignment
-Experience Level
-Project Strength
-Learning Potential
-Opportunity Readiness
-
-Example:
-
-STUDENT DNA
-
-AI / ML       █████████░ 90%
-Development   ████████░░ 80%
-Data Science  ███████░░░ 70%
-Cybersecurity ████░░░░░░ 40%
-
-Create an overall:
-
-“Opportunity Readiness Score”
-
-Example:
-
-78/100
-
-Explain:
-
-“Your profile is strong for software development and AI opportunities. Adding one machine-learning project could significantly improve your profile.”
-
-==================================================
-5. DASHBOARD
-==================================================
-
-Create the main student dashboard.
-
-Header:
-
-“Welcome back, [Name] 👋”
-
-Subtitle:
-“Here’s what OpportunityX found for you today.”
-
-Show cards:
-
-Recommended
-Saved
-Applied
-Closing Soon
-
-Then show:
-
-🔥 YOUR NEXT BEST MOVE
-
-Example:
-
-Apply for:
-“AI Innovation Internship”
-
-Match:
-92%
-
-Why:
-✓ Your Python skills match
-✓ Your AI interest matches
-✓ Education requirement satisfied
-✓ Career goal aligned
-
-Preparation:
-“Learn basic Scikit-learn and complete one ML project.”
-
-Button:
-“View Opportunity”
-
-==================================================
-6. RECOMMENDATION ENGINE
-==================================================
-
-Create a real recommendation algorithm.
-
-Calculate:
-
-Skill Match = 35%
-Career Goal Match = 20%
-Interest Match = 15%
-Education Match = 10%
-Project/Experience Match = 10%
-Preference Match = 5%
-Deadline Feasibility = 5%
-
-Calculate final score between 0 and 100.
-
-Example:
-
+```text
 Student:
-Python
-React
-SQL
-AI
+Alex Sharma
 
-Opportunity:
-AI Developer Internship
+Degree:
+B.E. Computer Engineering
 
-Result:
+Year:
+Second Year
 
-94% MATCH
+Skills:
+Python, Java, React, SQL, Git, HTML, CSS
 
-Show visually:
+Interests:
+Artificial Intelligence, Web Development, Data Science
 
-94%
-Excellent Match
+Career Goals:
+Software Developer, AI/ML Engineer
+```
 
-Categories:
+---
 
-Skills: 95%
-Career Goal: 100%
-Interest: 95%
-Education: 100%
-Experience: 80%
+## 🤖 2. AI-Powered Opportunity Matching
 
-==================================================
-7. “WHY THIS MATCH?”
-==================================================
+The system calculates a personalized match score for every opportunity.
 
-Every opportunity must have an explainable recommendation.
+### Matching Algorithm
 
-Create:
+| Factor                     | Weight |
+| -------------------------- | -----: |
+| Skill Match                |    35% |
+| Career Goal Match          |    20% |
+| Interest Match             |    15% |
+| Education Match            |    10% |
+| Project / Experience Match |    10% |
+| Preference Match           |     5% |
+| Deadline Feasibility       |     5% |
 
-“Why this opportunity matches you”
+### Example
 
-Example:
-
-✓ 5 of 6 required skills matched
-✓ Your career goal is strongly aligned
-✓ You meet the eligibility criteria
-✓ Your preferred work mode matches
-✓ Your existing project increases relevance
-
-Also show:
-
-“Potential concern”
-
-⚠ You don't currently have Docker experience.
-
-==================================================
-8. “WHAT'S MISSING?”
-==================================================
-
-Create Skill Gap Analysis.
-
-Example:
-
-TARGET:
+```text
 AI/ML Internship
 
-YOU HAVE:
+Overall Match: 92%
 
-✓ Python
-✓ SQL
-✓ Pandas
-✓ Git
+Skill Match:          95%
+Career Goal Match:    98%
+Interest Match:       94%
+Education Match:      90%
+Experience Match:     85%
+Preference Match:     90%
+Deadline Feasibility: 92%
+```
 
-MISSING:
+---
 
-○ Machine Learning
-○ Scikit-learn
-○ Model Evaluation
+## 💡 3. Explainable Recommendations
 
-Display:
+OpportunityX doesn't just show a match percentage.
 
-“Application Readiness: 76%”
+It explains **why the opportunity is suitable**.
 
-Then:
+### Example
 
-HOW TO IMPROVE:
+```text
+Why This Match?
 
-1. Learn Machine Learning basics
-2. Build one ML project
-3. Add the project to GitHub
-4. Update your resume
+✓ You have Python experience
+✓ Your interests include AI/ML
+✓ Your career goal is AI/ML Engineer
+✓ You have relevant projects
+✓ You satisfy the education requirements
+```
 
-==================================================
-9. SMART PROJECT RECOMMENDATIONS
-==================================================
+This makes recommendations more transparent and understandable.
 
-Create:
+---
 
-“Projects You Should Build”
+## 📊 4. Skill Gap Analyzer
 
-Projects must be personalized based on missing skills.
+OpportunityX compares the student's current skills with the skills required by an opportunity.
 
-Example:
+```text
+Student Skills
+       +
+Opportunity Requirements
+       ↓
+Skill Gap Analysis
+```
 
-Student skills:
-Python + SQL + AI
+### Example
 
-Recommended:
+```text
+Python           ✓
+Machine Learning ✓
+SQL              ✓
+TensorFlow       ✗
+Docker           ✗
+Cloud            ✗
+```
 
-“AI Resume Analyzer”
+The system identifies:
+
+* Existing skills
+* Missing skills
+* Important skills
+* Skill priorities
+* Recommended preparation
+
+---
+
+## 🛠️ 5. Personalized Project Recommendations
+
+OpportunityX recommends practical projects to help students close identified skill gaps.
+
+### Example
+
+```text
+Skill Gap:
+Machine Learning
+
+Recommended Project:
+Student Performance Prediction System
+
+Skills Developed:
+• Python
+• Pandas
+• Scikit-learn
+• Data Visualization
+• Machine Learning
 
 Difficulty:
 Intermediate
 
-Duration:
-7–10 days
+Estimated Time:
+1–2 Weeks
+```
 
-Skills gained:
-Python
-NLP
-Machine Learning
-API Integration
+---
 
-Career relevance:
-★★★★★
+## 🚀 6. Next Best Move
 
-Another:
+The **Next Best Move** feature converts recommendations into actionable steps.
 
-“Student Performance Prediction System”
+### Example
 
-Skills:
-Python
-Pandas
-Machine Learning
-Data Visualization
+```text
+🎯 NEXT BEST MOVE
 
-==================================================
-10. OPPORTUNITY RADAR
-==================================================
+Complete a Machine Learning project
+to improve your AI Internship readiness.
 
-Create a page:
+Current Readiness: 72%
 
-“Opportunity Radar”
+Expected Readiness: 88%
+```
 
-Display personalized opportunity counts:
+Possible actions:
 
-AI/ML
-42 opportunities
+* Apply now
+* Build a project
+* Improve a skill
+* Complete a certification
+* Update resume
+* Prepare for interview
+* Register for a hackathon
+* Complete eligibility requirements
 
-Software Development
-36 opportunities
+---
 
-Hackathons
-18 opportunities
+## 🛣️ 7. Opportunity Path
 
-Scholarships
-12 opportunities
+OpportunityX creates a structured career journey.
 
-Research
-9 opportunities
-
-Open Source
-15 opportunities
-
-Use attractive charts/cards.
-
-==================================================
-11. EXPLORE OPPORTUNITIES
-==================================================
-
-Create an advanced search page.
-
-Search bar:
-
-“Search internships, hackathons, scholarships…”
-
-Filters:
-
-• Type
-• Domain
-• Skills
-• Location
-• Work Mode
-• Paid/Unpaid
-• Deadline
-• Difficulty
-• Eligibility
-
-Opportunity types:
-
-Internship
-Hackathon
-Scholarship
-Competition
-Fellowship
-Research
-Workshop
-Certification
-Open Source
-Project
-
-Include at least 30 realistic DEMO opportunities.
-
-IMPORTANT:
-Clearly label demo/sample data.
-Do not create fake application URLs and present them as real.
-
-==================================================
-12. OPPORTUNITY CARDS
-==================================================
-
-Each opportunity card should display:
-
-Opportunity Title
-
-Organization
-
-Type
-
-Domain
-
-Match Score
-
-Required Skills
-
-Location
-
-Work Mode
-
-Stipend / Prize
-
-Deadline
-
-Difficulty
-
-Buttons:
-
-[View Details]
-[Save]
-[Apply]
-
-Example:
-
-AI Innovation Internship
-
-92% Match
-
-Skills:
-Python • AI • Machine Learning
-
-Mode:
-Remote
-
-Duration:
-8 Weeks
-
-Stipend:
-₹25,000/month
-
-Deadline:
-25 Sept 2026
-
-Status:
-🔥 Closing Soon
-
-==================================================
-13. OPPORTUNITY DETAILS
-==================================================
-
-Create a detailed page.
-
-Include:
-
-• Title
-• Organization
-• Description
-• Eligibility
-• Required skills
-• Preferred skills
-• Domain
-• Location
-• Work mode
-• Duration
-• Stipend
-• Deadline
-• Application process
-
-Then:
-
-AI ANALYSIS
-
-Match Score:
-92%
-
-Why You Match:
-✓ Python
-✓ AI Interest
-✓ Education
-✓ Career Goal
-
-Skills to Improve:
-○ Machine Learning
-○ Docker
-
-Career Value:
-★★★★★
-
-Portfolio Value:
-★★★★★
-
-Learning Value:
-★★★★☆
-
-Buttons:
-
-[Save Opportunity]
-[Apply]
-[Add to Tracker]
-
-==================================================
-14. OPPORTUNITY COMPARISON
-==================================================
-
-Allow students to select 2–3 opportunities.
-
-Compare:
-
-Match Score
-Skills
-Career Value
-Learning Value
-Difficulty
-Deadline
-Stipend
-Portfolio Value
-Eligibility
-
-Then display:
-
-“BEST CHOICE FOR YOU”
-
-Example:
-
-Opportunity B
-
-Reason:
-“Highest career alignment and strongest skill match.”
-
-==================================================
-15. NEXT BEST MOVE
-==================================================
-
-This is the MOST IMPORTANT UNIQUE FEATURE.
-
-Create a dedicated section:
-
-“YOUR NEXT BEST MOVE”
-
-The AI should analyze all available opportunities and student profile.
-
-Example:
-
-YOUR NEXT BEST MOVE 🎯
-
-1. Complete an ML project
-2. Update your GitHub
-3. Apply for AI Innovation Internship
-4. Join an AI hackathon
-5. Learn Docker
-
-Show:
-
-Recommended Action
-Reason
-Expected Benefit
-Estimated Preparation Time
-
-==================================================
-16. OPPORTUNITY PATH
-==================================================
-
-Create a visual career journey.
-
-Example:
-
-YOUR GOAL:
-AI/ML Engineer
-
-↓
-
+```text
 Learn Python
-
-↓
-
-Build ML Project
-
-↓
-
-Join AI Hackathon
-
-↓
-
+     ↓
+Build Data Science Project
+     ↓
+Participate in Hackathon
+     ↓
+Complete ML Certification
+     ↓
 Apply for AI Internship
+     ↓
+Gain Experience
+     ↓
+Apply for AI/ML Roles
+```
 
-↓
+---
 
-Research Opportunity
+## 🔥 8. Smart Opportunity Priority
 
-↓
+OpportunityX prioritizes opportunities based on relevance and urgency.
 
-AI/ML Engineer
+### Priority Levels
 
-Call this:
+🔴 **Apply Now**
+High match + approaching deadline
 
-“Your Opportunity Path”
+🟠 **High Priority**
+Strong match + valuable opportunity
 
-Make it interactive.
+🟡 **Consider**
+Moderate match
 
-==================================================
-17. APPLICATION TRACKER
-==================================================
+🟢 **Explore**
+Useful for future development
 
-Create a Kanban-style tracker.
+---
 
-Columns:
+## ⏰ 9. Deadline Intelligence
 
-Interested
+The system helps students avoid missing important deadlines.
+
+```text
+🔥 Deadline in 2 Days
+⚠️ Deadline in 5 Days
+📅 Deadline in 12 Days
+✓ Deadline in 30 Days
+```
+
+---
+
+## 📡 10. Opportunity Radar
+
+Students can discover opportunities across multiple categories.
+
+### Supported Categories
+
+* 💼 Internships
+* 🏆 Hackathons
+* 🎓 Scholarships
+* 🔬 Research Programs
+* 🌍 Fellowships
+* 💻 Open Source Programs
+* 📜 Certifications
+* 🥇 Competitions
+* 🚀 Startup Programs
+* 🛠️ Projects
+
+---
+
+## 🔎 11. Smart Opportunity Explorer
+
+Students can search and filter opportunities based on:
+
+* Category
+* Skills
+* Career Goal
+* Location
+* Remote / Hybrid / On-site
+* Eligibility
+* Difficulty
+* Deadline
+* Match Score
+
+---
+
+## 📄 12. Opportunity Details
+
+Each opportunity provides:
+
+* Opportunity title
+* Organization
+* Category
+* Description
+* Eligibility
+* Required skills
+* Location
+* Work mode
+* Deadline
+* Match score
+* Application readiness
+* Missing skills
+* Why this match?
+* Recommended preparation
+* Application link
+
+---
+
+## ⚖️ 13. Opportunity Comparison
+
+Students can compare multiple opportunities before applying.
+
+| Feature      | Opportunity A | Opportunity B |
+| ------------ | ------------: | ------------: |
+| Match Score  |           92% |           84% |
+| Skill Match  |           95% |           82% |
+| Career Match |           98% |           86% |
+| Deadline     |        5 Days |       18 Days |
+| Readiness    |           88% |           76% |
+| Priority     |       🔥 High |     🟡 Medium |
+
+---
+
+## 📋 14. Application Tracker
+
+Track applications through different stages:
+
+```text
 Saved
+  ↓
+Preparing
+  ↓
 Applied
-Shortlisted
+  ↓
+Assessment
+  ↓
 Interview
-Selected
-Rejected
+  ↓
+Selected / Rejected
+```
 
-Allow students to move/update opportunities.
+---
 
-Each card:
+## 🧠 15. AI Career Copilot
 
-Opportunity
-Organization
-Applied Date
-Deadline
-Status
-Notes
+Students can interact with an AI career assistant.
 
-Save application data in localStorage.
+Example questions:
 
-==================================================
-18. DEADLINE INTELLIGENCE
-==================================================
+```text
+"What internships should I apply for?"
 
-Create:
+"What skills should I learn for AI/ML?"
 
-“Deadline Intelligence”
+"How can I improve my profile?"
 
-Categories:
+"Which project should I build?"
 
-🔴 APPLY TODAY
-🟠 CLOSING SOON
-🟡 THIS WEEK
-🟢 UPCOMING
-
-Do not only consider deadline.
-
-Also consider preparation time.
-
-Example:
-
-Deadline:
-5 days
-
-Preparation:
-7 days
-
-Display:
-
-⚠ “Start immediately — estimated preparation time exceeds the remaining deadline.”
-
-==================================================
-19. AI CAREER COPILOT
-==================================================
-
-Create a chatbot called:
-
-“OpportunityX Copilot”
-
-The chatbot should understand the student's profile.
-
-Students can ask:
-
-“What should I apply for this week?”
-
-“Which internship is best for me?”
-
-“What skills am I missing?”
-
-“What project should I build?”
-
-“Am I ready for this internship?”
-
-“How can I improve my profile?”
-
-“Which hackathon matches my skills?”
-
-“What should I learn to become an AI engineer?”
-
-If Gemini API is available, integrate Gemini.
-
-If Gemini API is not available, use a local recommendation/fallback system.
-
-==================================================
-20. DAILY OPPORTUNITY BRIEF
-==================================================
-
-Create:
-
-“Today's Opportunity Brief”
-
-Example:
-
-Good Morning! 👋
-
-Today:
-
-🔥 3 opportunities are closing soon
-⭐ 7 new opportunities match your profile
-📚 2 skills need improvement
-🚀 1 project is recommended
-
-NEXT ACTION:
-
-“Apply for AI Innovation Internship”
-
-==================================================
-21. PROFILE PAGE
-==================================================
-
-Display:
-
-Student information
-Education
-Skills
-Interests
-Career goals
-Projects
-Experience
-Preferences
-
-Show:
-
-Profile Completion:
-85%
-
-Opportunity Readiness:
-78%
-
-Buttons:
-
-[Edit Profile]
-[Improve Profile]
-
-==================================================
-22. ADMIN DASHBOARD
-==================================================
-
-Create a simple admin section for demonstration.
-
-Admin can:
-
-Add opportunity
-Edit opportunity
-Delete opportunity
-View opportunities
-View student statistics
-
-Opportunity fields:
-
-Title
-Organization
-Type
-Domain
-Description
-Skills
-Eligibility
-Location
-Mode
-Stipend
-Deadline
-Difficulty
-
-==================================================
-23. DESIGN SYSTEM
-==================================================
-
-Make the UI look like a premium AI SaaS product.
-
-Use:
-
-• Modern typography
-• Rounded cards
-• Subtle shadows
-• Glassmorphism where appropriate
-• Smooth animations
-• Gradient accents
-• Lucide icons
-• Responsive layout
-• Mobile-first design
-• Dark mode
-• Light mode
-• Professional charts
-• Progress indicators
-• Empty states
-• Loading states
-• Toast notifications
-
-IMPORTANT:
-
-Do NOT make the website look like a generic job portal.
-
-It should feel like:
-
-AI Career Coach
-+
-Opportunity Discovery Engine
-+
-Recommendation System
-+
-Career Planner
-
-==================================================
-24. NAVIGATION
-==================================================
-
-Sidebar:
-
-OpportunityX logo
-
-Dashboard
-For You
-Explore
-Opportunity Radar
-Opportunity Path
-Skill Gap
-Projects
-Applications
-Deadlines
-Copilot
-Profile
-
-==================================================
-25. DEMO DATA
-==================================================
-
-Create at least 30 demo opportunities covering:
-
-AI/ML
-Software Development
-Web Development
-Data Science
-Cybersecurity
-Cloud Computing
-Blockchain
-UI/UX
-Research
-Hackathons
-Scholarships
-Open Source
-Fellowships
-
-Use realistic demo data.
-
-Clearly identify sample/demo opportunities.
-
-==================================================
-26. TECH STACK
-==================================================
-
-Use:
-
-React
-TypeScript
-Tailwind CSS
-Lucide Icons
-
-Use reusable components.
-
-Use localStorage for demo persistence.
-
-Create clean architecture:
-
-src/
-├── components/
-├── pages/
-├── data/
-├── services/
-├── utils/
-├── types/
-├── hooks/
-└── App.tsx
-
-Create TypeScript interfaces for:
-
-Student
-Opportunity
-Skill
-Recommendation
-Application
-Project
-CareerPath
-
-==================================================
-27. AI INTEGRATION
-==================================================
-
-If Gemini API is available, use it for:
-
-• Personalized recommendations
-• Recommendation explanations
-• Skill-gap analysis
-• Project recommendations
-• Career advice
-• Opportunity comparison
-• AI Copilot
-
-Never expose API keys directly in frontend code.
-
-Use environment variables.
-
-The application must continue working without an API key.
-
-==================================================
-28. FUNCTIONALITY REQUIREMENTS
-==================================================
-
-The application must be fully functional.
-
-Implement:
-
-✓ Navigation
-✓ Search
-✓ Filters
-✓ Sorting
-✓ Student onboarding
-✓ Profile editing
-✓ Recommendation algorithm
-✓ Match scores
-✓ Explainable recommendations
-✓ Skill gap analysis
-✓ Project recommendations
-✓ Opportunity comparison
-✓ Save opportunities
-✓ Application tracker
-✓ Deadline tracking
-✓ Opportunity Path
-✓ AI Copilot
-✓ Dark/light mode
-✓ localStorage persistence
-
-Do not create non-functional buttons.
-
-Do not leave major sections as placeholders.
-
-==================================================
-29. DEMO STUDENT
-==================================================
-
-Include a demo profile:
-
+"Am I ready for this internship?"
+
+"What should I do this week?"
+```
+
+---
+
+## 📰 16. Daily Opportunity Brief
+
+OpportunityX can provide a personalized daily summary.
+
+```text
+Good Morning, Alex! 👋
+
+Today's Opportunity Brief
+
+🔥 3 High-Match Opportunities
+⚠️ 2 Deadlines This Week
+🧠 1 Skill Gap to Work On
+🚀 1 Recommended Project
+
+Your Next Best Move:
+Build a Machine Learning project.
+```
+
+---
+
+# 🏆 What Makes OpportunityX Unique?
+
+Traditional opportunity platforms answer:
+
+> **"What opportunities are available?"**
+
+OpportunityX answers:
+
+> **"Which opportunity is right for me, why does it match me, what am I missing, and what should I do next?"**
+
+### Traditional Approach
+
+```text
+Search
+  ↓
+View Opportunities
+  ↓
+Apply
+```
+
+### OpportunityX Approach
+
+```text
+Understand Student
+        ↓
+Analyze Profile
+        ↓
+Personalize Opportunities
+        ↓
+Explain Recommendations
+        ↓
+Identify Skill Gaps
+        ↓
+Recommend Projects
+        ↓
+Measure Readiness
+        ↓
+Prioritize Opportunities
+        ↓
+Suggest Next Best Move
+        ↓
+Apply
+```
+
+---
+
+# 🏗️ System Architecture
+
+```text
+                 ┌─────────────────────┐
+                 │   Student Profile   │
+                 └──────────┬──────────┘
+                            ↓
+                 ┌─────────────────────┐
+                 │     Student DNA     │
+                 └──────────┬──────────┘
+                            ↓
+                 ┌─────────────────────┐
+                 │ Opportunity Dataset │
+                 └──────────┬──────────┘
+                            ↓
+                 ┌─────────────────────┐
+                 │  AI Matching Engine │
+                 └──────────┬──────────┘
+                            ↓
+             ┌──────────────┼──────────────┐
+             ↓              ↓              ↓
+        Match Score     Skill Gap      Readiness
+             │              │              │
+             └──────────────┼──────────────┘
+                            ↓
+                 ┌─────────────────────┐
+                 │ Recommendation      │
+                 │ Engine              │
+                 └──────────┬──────────┘
+                            ↓
+          ┌─────────────────┼─────────────────┐
+          ↓                 ↓                 ↓
+   Opportunities       Projects       Next Best Move
+          │                 │                 │
+          └─────────────────┼─────────────────┘
+                            ↓
+                 ┌─────────────────────┐
+                 │ Student Dashboard  │
+                 └─────────────────────┘
+```
+
+---
+
+# 🧑‍💻 Technology Stack
+
+### Frontend
+
+* React
+* TypeScript
+* Vite
+* Tailwind CSS
+* Lucide Icons
+
+### AI
+
+* Gemini API
+* AI-powered recommendation engine
+* Explainable AI logic
+
+### Data & Storage
+
+* LocalStorage
+* JSON-based opportunity dataset
+* Structured demo data
+
+### Development Tools
+
+* Visual Studio Code
+* Git
+* GitHub
+* Google AI Studio
+
+---
+
+# 📁 Project Structure
+
+```text
+OpportunityX/
+│
+├── public/
+│
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── data/
+│   ├── services/
+│   ├── utils/
+│   ├── types/
+│   ├── App.tsx
+│   └── main.tsx
+│
+├── screenshots/
+│
+├── README.md
+├── package.json
+├── tsconfig.json
+├── vite.config.ts
+└── tailwind.config.js
+```
+
+---
+
+# ⚙️ Installation & Setup
+
+## 1. Clone the Repository
+
+```bash
+git clone YOUR_GITHUB_REPOSITORY_URL
+```
+
+## 2. Navigate to the Project
+
+```bash
+cd OpportunityX
+```
+
+## 3. Install Dependencies
+
+```bash
+npm install
+```
+
+## 4. Start the Development Server
+
+```bash
+npm run dev
+```
+
+## 5. Open in Browser
+
+```text
+http://localhost:5173
+```
+
+---
+
+# 🔑 Gemini API Configuration
+
+If Gemini API integration is enabled, create a `.env` file:
+
+```env
+VITE_GEMINI_API_KEY=your_api_key_here
+```
+
+The application can use a local fallback recommendation engine when an API key is unavailable.
+
+---
+
+# 🧪 Demo Profile
+
+```text
 Name:
 Alex Sharma
 
-Education:
+Degree:
 B.E. Computer Engineering
 
 Year:
@@ -1086,61 +677,217 @@ AI
 Web Development
 Data Science
 
-Career Goal:
-Software Developer / AI Engineer
+Career Goals:
+Software Developer
+AI/ML Engineer
+```
 
-Use this profile to demonstrate personalized recommendations.
+---
 
-==================================================
-30. FINAL PRODUCT EXPERIENCE
-==================================================
 
-When a student opens OpportunityX, the journey should be:
+# 🌐 Project Links
 
-Landing Page
-↓
-Create Profile
-↓
-Student DNA
-↓
-Opportunity Analysis
-↓
-Personalized Recommendations
-↓
-“Your Next Best Move”
-↓
-Skill Gap
-↓
-Project Recommendation
-↓
-Apply
-↓
-Track Application
-↓
-Career Path
+### 🚀 Live Demo
 
-The final application should communicate:
+https://ai.studio/apps/f64f390d-0e75-4a0a-91cd-2c1ea1127267
 
-“OpportunityX helps students move from
-WHERE I AM
-to
-WHERE I WANT TO BE.”
+### 💻 GitHub Repository
+https://github.com/shrushtiraut9075
 
-Build the complete application now.
+---
 
-Do not only generate a UI mockup.
+# 🎥 Demo Video
 
-Generate the complete working project with all necessary files, components, pages, sample data, logic, styling, and setup instructions.
+Add your project demonstration video here.
 
-Make it polished enough for:
+```text
+[Demo Video Link]
+```
 
-• College project
-• Hackathon
-• GitHub portfolio
-• Resume
-• Internship demonstration
-• Final-year project presentation
+---
 
-The application name MUST remain:
+# 🌍 Expected Impact
 
-“OpportunityX – AI-Powered Student Opportunity Engine”
+OpportunityX aims to help students:
+
+* Discover relevant opportunities faster
+* Reduce information overload
+* Understand skill gaps
+* Build relevant projects
+* Improve application readiness
+* Avoid missed deadlines
+* Make informed career decisions
+* Create structured career roadmaps
+* Improve confidence while applying
+
+---
+
+# 🔮 Future Scope
+
+### Real-Time Opportunity Aggregation
+
+Integrate APIs and trusted sources to collect new opportunities automatically.
+
+### Resume Intelligence
+
+Analyze resumes and identify:
+
+* Missing skills
+* Weak project descriptions
+* ATS improvements
+* Relevant opportunities
+
+### AI Interview Preparation
+
+Provide:
+
+* Technical interview questions
+* HR questions
+* Mock interviews
+* Role-specific preparation
+
+### LinkedIn Profile Intelligence
+
+Provide suggestions to improve professional profiles.
+
+### Personalized Learning
+
+Recommend courses and learning resources based on identified skill gaps.
+
+### Predictive Opportunity Matching
+
+Predict which opportunities are most suitable based on student profiles and historical interaction data.
+
+### Mobile Application
+
+Develop dedicated Android and iOS applications.
+
+---
+
+# 🔐 Responsible AI
+
+OpportunityX follows responsible AI principles.
+
+### Explainability
+
+Recommendations provide understandable reasons.
+
+### Fairness
+
+The system should minimize unnecessary bias in recommendations.
+
+### Privacy
+
+Student information should be handled securely and used only for relevant personalization.
+
+### Human Decision Making
+
+AI recommendations assist students but do not replace their own decisions.
+
+---
+
+# 🗺️ Roadmap
+
+```text
+[x] Student Profile
+[x] Student DNA
+[x] Opportunity Explorer
+[x] Recommendation Engine
+[x] Match Score
+[x] Skill Gap Analysis
+[x] Project Recommendations
+[x] Next Best Move
+[x] Opportunity Priority
+[x] Application Tracker
+[x] Opportunity Comparison
+[x] AI Career Copilot
+
+[ ] Real-Time Opportunity APIs
+[ ] Resume Analyzer
+[ ] Interview Preparation
+[ ] Advanced Career Prediction
+[ ] Mobile Application
+```
+
+---
+
+# 📊 Project Information
+
+| Category          | Details                                              |
+| ----------------- | ---------------------------------------------------- |
+| Project Name      | OpportunityX – AI-Powered Student Opportunity Engine |
+| Problem Statement | PS2 – Student Opportunity Engine                     |
+| Domain            | AI / EdTech / Career Intelligence                    |
+| Frontend          | React + TypeScript                                   |
+| AI                | Gemini                                               |
+| Development Tool  | Google AI Studio                                     |
+| Status            | 🚀 Active Development                                |
+
+---
+
+# 👩‍💻 Author
+
+## Shrushti Raut
+
+**Computer Engineering Student**
+
+### Areas of Interest
+
+* Artificial Intelligence
+* Machine Learning
+* Software Development
+* Web Development
+* Data Science
+* Generative AI
+
+---
+
+# 🤝 Contributing
+
+Contributions are welcome!
+
+```bash
+# Create a new branch
+git checkout -b feature/new-feature
+
+# Make your changes
+
+# Add changes
+git add .
+
+# Commit
+git commit -m "Add new feature"
+
+# Push
+git push origin feature/new-feature
+```
+
+Then create a Pull Request.
+
+---
+
+# ⭐ Support
+
+If you find **OpportunityX** useful or interesting:
+
+⭐ Star this repository
+🍴 Fork the project
+🐛 Report issues
+💡 Suggest improvements
+🤝 Contribute to the project
+
+---
+
+# 📄 License
+
+This project is developed for **educational, innovation, and hackathon purposes**.
+
+---
+
+# 🚀 Final Vision
+
+> **OpportunityX doesn't just find opportunities.**
+
+> **It understands the student, explains the opportunity, identifies the skill gap, recommends what to build, and tells the student what to do next.**
+
+### 🌟 Discover Opportunities. Build Skills. Shape Your Future.
